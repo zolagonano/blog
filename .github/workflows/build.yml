@@ -15,7 +15,8 @@ jobs:
 
       - uses: actions-rs/cargo@v1
         with:
-          command: install stog
+          command: install
+          args: stog
 
       - run: stog build
 

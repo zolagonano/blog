@@ -6,19 +6,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions-rs/toolchain@v1
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
         with:
           profile: minimal
           toolchain: stable
           override: true
 
-      - uses: actions-rs/cargo@v1
+      - name: Install stog
+        uses: actions-rs/cargo@v1
         with:
           command: install
           args: stog
 
-      - run: stog build
+      - name: Build the blog
+        run: stog build
 
       - name: Deploy to GitHub Pages
         if: success()

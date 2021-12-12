@@ -1,5 +1,5 @@
-base_url = ""
-site_name = "STOG"
-site_author = "Somebody"
-site_description = "generated with STOG"
+base_url = "/blog"
+site_name = "ZedNano"
+site_author = "Zola Gonano"
+site_description = "I write about things that I like :)"
 post_headers = ["title", "date", "author"]

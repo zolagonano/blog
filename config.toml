@@ -1,0 +1,5 @@
+base_url = ""
+site_name = "STOG"
+site_author = "Somebody"
+site_description = "generated with STOG"
+post_headers = ["title", "date", "author"]

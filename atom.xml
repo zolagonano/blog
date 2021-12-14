@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>ZedNano</title>
     <link href="&#x2F;blog"/>
-    <updated>2021-12-12T16:27:56+00:00</updated>
+    <updated>2021-12-14T08:54:51+00:00</updated>
     <author>
         <name>Zola Gonano</name>
     </author>
@@ -11,7 +11,7 @@
     <entry>
         <title>Lorem Ipsum One</title>
         <link href="&#x2F;blog/posts/lorem1.html"/>
-        <id>b5668d03a692129ec04cc26b04aa9416</id>
+        <id>b806338bd5bd89787afe11b8147b5000</id>
         <updated>post.header["date"] | date(format="%Y-%m-%dT%H:%M:%S%:z")</updated>
         <content type="html">&lt;h1&gt;Pastor offensamque elusam concita torum meliora condi&lt;&#x2F;h1&gt;
 &lt;h2&gt;Cape sed unus&lt;&#x2F;h2&gt;
@@ -49,7 +49,7 @@ Virtus haberet, revulsit duplici qualia dextra tolle senes nubes novi?&lt;&#x2F;
     <entry>
         <title>Lorem Ipsum Two</title>
         <link href="&#x2F;blog/posts/lorem2.html"/>
-        <id>9a769e2e9b7c87500f1bb3b47b73f07a</id>
+        <id>b3d3ceefca76081e4afe5cc2cd9848a1</id>
         <updated>post.header["date"] | date(format="%Y-%m-%dT%H:%M:%S%:z")</updated>
         <content type="html">&lt;h1&gt;Nomine proterit miliaque quam nunc&lt;&#x2F;h1&gt;
 &lt;h2&gt;Dum poenam capit teque sentiet visendae isset&lt;&#x2F;h2&gt;
